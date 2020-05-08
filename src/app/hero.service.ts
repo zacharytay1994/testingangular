@@ -75,7 +75,7 @@ export class HeroService {
     let concatcount: number = 0;
     let ids: string = "";
     for (var i in this.itemMap) {
-      if (iterationcount > 120) {
+      if (iterationcount > 20) {
         break;
       }
       if (concatcount < 50) {
